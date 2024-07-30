@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Curated Cupboard Ltd</title>
+        <link rel="icon" type="image/x-icon" href="PNG-Imgs/homepage/the-curated-cupboard-favicon-black.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-------------------------------Sheet Links------------------------->
+        <link rel="stylesheet" href="style.css">
+        <!-------------------------------Fonts--------------------------------------->
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" 
+            rel="stylesheet">
+            <link 
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+             rel="stylesheet">
+    
+    
+        <!-------------------------------JavaScript------------------------>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+
+    <!-------------------------------------NAVIGATION BAR------------------------------->
+    <header>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+        $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+    </header>
+
+    <!---------------------------------------MAIN CONTENT------------------------------->
+     <body>
+
+    <!---------------------------------------CONTACT------------------------------->
+
+    <div class="utility">
+        <div class="contact-container-1">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="74a0f517-1b17-49a2-b3b5-d9a92d3a7474">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="PNG-Imgs/homepage/right_img.png" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------FOOTER------------------------------------------------->
+    <!--footer bar-->
+        <div id="foot-placeholder">
+
+        </div>
+    
+         <script>
+            $(function(){
+            $("#foot-placeholder").load("footer.html");
+        });
+        </script>
+    <!--end of footer bar-->
+    
+        </body>
+
+</html>
