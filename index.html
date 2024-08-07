@@ -5,9 +5,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Curated Cupboard Ltd</title>
+    <title>The Curated Cupboard Ltd | Cleaning services for Yorkshire.</title>
     <link rel="icon" type="image/x-icon" href="PNG-Imgs/homepage/the-curated-cupboard-favicon-black.png">
-    <meta name="description" content="">
+    <link rel="apple-touch-icon" href="PNG-Imgs/homepage/the-curated-cupboard-favicon-black.png">
+    <meta name="description"
+        content="The most reliable and affordable cleaning & decluttering services in Yorkshire. From bathrooms, bedrooms, closets, kitchens, pantrys, we can do it all">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-------------------------------Sheet Links------------------------->
     <link rel="stylesheet" href="style.css">
@@ -16,8 +18,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
-
     <!-------------------------------JavaScript------------------------>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -65,9 +65,9 @@
         <div class="cleaning-services" id="areas">
             <div class="cleaning-container">
                 <div class="cleaning-title">
-                    <h1 class="first-title">
+                    <h2 class="first-title">
                         Services We Offer:
-                    </h1>
+                    </h2>
                 </div>
 
                 <div class="clean-row">
@@ -295,24 +295,26 @@
 
     <!---------------------------------------QUIZ---------------------------->
 
-    -<div class="utility">
+    <div class="utility">
         <div class="open-container">
-            <div class="quiz">
+            <div class="quiz" id="contact-unsure">
                 <div class="first-title">
                     Unsure where to begin?
                 </div>
                 <div class="quiz-title">
-                    <h1>Fill out this form <br>and we'll be in touch!</h1>
+                    <h2>Fill out this form <br>and we'll be in touch!</h2>
                 </div>
             </div>
 
             <div class="quiz-col-2">
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="74a0f517-1b17-49a2-b3b5-d9a92d3a7474">
-                    <input type="hidden" name="subject" value="New Quiz email">
-                    <input type="hidden" name="from_name" value="Quiz Submission">
-                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <form action="https://formsubmit.co/lukemthewebdev@gmail.com" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                    </div>
+                        <input type="hidden" name="_subject" value="Quiz submission!">
+                        <input type="hidden" name="_autoresponse"
+                            value="Thank you for reaching out, we'll be in touch soon!">
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
 
                     <details name="myselectlist">
                         <summary>Which areas of your home are in need of decluttering?</summary>
@@ -564,7 +566,7 @@
                     <img class="about-img" src="couple.png" alt="couple">
                 </div>
                 <div class="col-2">
-                    <h1>Welcome to The Curated Cupboard Limited!</h1>
+                    <h2>Welcome to The Curated Cupboard Limited!</h2>
                     <p>We are Rose & Ben Elwyn, the co-founders of
                         this magical endeavour. Our journey began with a shared vision to unlock the hidden magic
                         within the spaces we inhabit. With Rose's unwavering passion for decluttering and fostering
@@ -579,25 +581,25 @@
     <!-----------------------------------BOOK NOW ---------------------------->
     <div class="utility">
         <div class="contact-container">
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <form action="https://formsubmit.co/lukemthewebdev@gmail.com" method="POST" class="contact-left">
                 <div class="contact-left-title">
                     <h2>Get In Touch</h2>
                     <hr>
                 </div>
-                <input type="hidden" name="access_key" value="74a0f517-1b17-49a2-b3b5-d9a92d3a7474">
-                <input type="hidden" name="subject" value="New Enquiry email">
-                <input type="hidden" name="from_name" value="Website Enquiry">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_autoresponse"
+                        value="Thank you for reaching out, we'll be in touch shortly!">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <input type="text" name="name" placeholder="Write your message here" class="contact-inputs" required>
 
-                <!-- Honeypot Spam Protection -->
-                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                <button type="submit">Submit</button>
-            </form>
-            <div class="contact-right">
-                <img src="PNG-Imgs/homepage/right_img.png" alt="image">
-            </div>
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="contact-right">
+                    <img src="PNG-Imgs/homepage/right_img.png" alt="image">
+                </div>
         </div>
     </div>
 
