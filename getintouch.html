@@ -1,18 +1,23 @@
 <div class="utility">
     <div class="contact-container">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <form action="https://formsubmit.co/lukemthewebdev@gmail.com" method="POST" class="contact-left">
             <div class="contact-left-title">
                 <h2>Get In Touch</h2>
                 <hr>
             </div>
-            <input type="hidden" name="access_key" value="74a0f517-1b17-49a2-b3b5-d9a92d3a7474">
-            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-        <div class="contact-right">
-            <img src="PNG-Imgs/homepage/right_img.png" alt="image">
-        </div>
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_autoresponse"
+                    value="Thank you for reaching out, we'll be in touch shortly!">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <input type="text" name="name" placeholder="Write your message here" class="contact-inputs" required>
+
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="PNG-Imgs/homepage/right_img.png" alt="image">
+            </div>
     </div>
 </div>
