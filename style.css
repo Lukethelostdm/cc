@@ -473,7 +473,7 @@ body {
   }
 
   .quiz-title,
-  .quiz-title h1 {
+  .quiz-title h2 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -605,7 +605,7 @@ body {
     justify-content: center;
   }
 
-  .about h1 {
+  .about h2 {
     text-align: center;
     display: flex;
     font-family: "Sedan SC", serif;
@@ -1161,7 +1161,7 @@ body {
     box-shadow: #000 5px 5px 10px;
   }
 
-  .column-2 h1 {
+  .column-2 h2 {
     font-size: 2rem;
     font-family: "poppins", serif;
     font-style: italic;
@@ -1474,7 +1474,7 @@ body {
     grid-template-columns: auto auto;
   }
 
-  .about h1 {
+  .about h2 {
     text-align: center;
     display: flex;
     font-family: "Sedan SC", serif;
@@ -1538,7 +1538,7 @@ body {
     box-shadow: #000 5px 5px 10px;
   }
 
-  .column-2 h1 {
+  .column-2 h2 {
     font-size: 1.5rem;
     font-family: "poppins", serif;
     font-style: italic;
@@ -1716,7 +1716,7 @@ body {
     grid-template-columns: auto auto;
   }
 
-  .about h1 {
+  .about h2 {
     text-align: center;
     display: flex;
     font-family: "Sedan SC", serif;
@@ -1762,6 +1762,7 @@ body {
   .utility {
     max-width: 1024px;
   }
+
   .menu {
     height: 50%;
   }
@@ -1769,6 +1770,7 @@ body {
   .book_btn {
     width: 20%;
   }
+
   .open-menu,
   .close-menu {
     margin-top: 8rem;
@@ -1852,7 +1854,7 @@ body {
 
   .testimonial .row {
     display: grid;
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: auto auto auto;
     row-gap: 2rem;
     column-gap: 2rem;
     width: 100%;
@@ -1890,6 +1892,7 @@ body {
     height: 100%;
     margin-top: 2rem;
   }
+
   .quiz-col-2 img {
     display: block;
   }
@@ -2199,6 +2202,7 @@ body {
   .utility {
     max-width: 1256px;
   }
+
   .menu {
     height: 50%;
   }
@@ -2212,6 +2216,7 @@ body {
   .menu li a {
     font-weight: 300;
   }
+
   .nav-logo img {
     width: 90%;
   }
@@ -2227,9 +2232,9 @@ body {
     line-height: 4rem;
   }
 
-  
-  .about h1 {
-   font-size: 2rem;
+
+  .about h2 {
+    font-size: 2rem;
   }
 
   .about p {
@@ -2253,17 +2258,43 @@ body {
     max-width: 1536px;
 
   }
+
+  .nav-bar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-bar img {
+    width: 50vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero {
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+  }
+
   .col-2 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 
   }
 
   .col-2 p {
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: 2rem;
+    padding: 0 4rem;
     line-height: 4rem;
   }
 
+  .cleaning-services {
+    margin-top: -2rem;
+    height: 100%;
+  }
 
   .arrange {
     width: 100%;
@@ -2277,19 +2308,28 @@ body {
     font-size: 3rem;
   }
 
-  .secondary{
+  .secondary {
     font-size: 2rem;
   }
 
-  .path{
+  .path {
     font-size: 1.5rem;
   }
 
-  .column-2 h1{
+  .row .col-2 p{
+    font-size: 1.5rem;
+    line-height: 3;
+  }
+
+  .sub-line{
+    font-size: 2.2rem;
+  }
+
+  .clean-row .column-2 h2{
     font-size: 3rem;
   }
 
-  .column-2 p{
+  .clean-row .column-2 p{
     font-size: 2rem;
   }
 }
