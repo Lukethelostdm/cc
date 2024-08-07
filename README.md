@@ -14,7 +14,7 @@ INDEX:
   Section 3 - Changing Images.
 
 
-SECTION ONE
+**SECTION ONE**
   All the code style choices are found in "Style.css". 
   
   "* {
@@ -31,10 +31,12 @@ SECTION ONE
   body {
     height: 100%;
   }
-  " should always remain where they are. 
+  " **should always remain where they are.**
   
   Anything between
-  "/****************************************** HEADER PERMANENT**************************************************************/
+  
+  "
+  HEADER PERMANENT
   
   and
   
@@ -42,7 +44,7 @@ SECTION ONE
   "
   should remain untouched for the most part as this controls the base display for your navigation bar. 
   
-  However, should you want to change the width of the logo, that can be found in ".nav-logo img" on line 43 or you can ctr + F to search for it.
+  However, should you want to change the width of the logo, that can be found in ".nav-logo img" you can ctr + F to search for it.
   
   Beneath "/*media - change if you want to change the display for a device.*/" you will find a series of code labelled "@media".
   This code is the heart of your stylization, it defines how the website looks on different devices. Above each "@media" you
@@ -55,11 +57,24 @@ SECTION ONE
   for example the small screen, check that section of code and adjust as appropriate. You may need to add or delete code where applicable.
   
   There is only one image held in "Style.Css" and that is the main image of a plant. It can be found in the subsection titled "HEADER" , code starting
-  oint of ".main-.row" starting on line 162. Image changes are discussed in more detail in Section 3.
+  oint of ".main-.row". Image changes are discussed in more detail in Section 3.
+
+  For all your subpages, "Bathroom, playroom, etc" they all share the same code. So if you change one, you change them all.
   
-  
-  "@media" starts from line 112, in the style.css file.
+  "@media" starts in the style.css file.
 
 
 
-SECTION TWO
+**SECTION TWO**
+
+HTML Sheets
+Anything ending in ".HTML" is the framework for your site. Where anything that ends in ".CSS" is responsible for the design, 
+".html" is responsible for what appears on the page and in what order.
+
+The home page is found under "Index.html" on the left. 
+
+All the sections are marked as to what they mean, so if you are looking to change a specific section, look for the title that will tell you where it is.
+
+**SECTION THREE**
+
+If you want to change images, you just need to add them into the PNG-Imgs file on the right. Add them into the correct the subfolder and then go to the page you would like to change. Change it to the correct name and save. It should update in under two minutes.
