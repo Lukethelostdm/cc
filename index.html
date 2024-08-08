@@ -13,35 +13,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-------------------------------Sheet Links------------------------->
     <link rel="stylesheet" href="style.css">
-    <link rel="preload" as="image" href="PNG-Imgs/homepage/home.png">
+    <link rel="preload" href="PNG-Imgs/homepage/home.png" as="image">
     <!-------------------------------Fonts--------------------------------------->
     <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet" media="screen">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-------------------------------JavaScript------------------------>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
-<!-------------------------------------NAVIGATION BAR------------------------------->
-<header>
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
 
-    </div>
 
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("nav.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
-</header>
-
-<!---------------------------------------MAIN CONTENT------------------------------->
 
 <body>
+
+    <!-------------------------------------NAVIGATION BAR------------------------------->
+    <header>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+    </header>
+
+    <!---------------------------------------MAIN CONTENT------------------------------->
+
     <div class="utility">
         <div class="hero">
             <div class="main-row" id="top-page">
@@ -71,7 +75,7 @@
                 <div class="clean-row">
                     <div class="clean-column-eight">
                         <a href="bathroom.html">
-                            <img src="PNG-Imgs/homepage/bathroom.png" alt="bathroom">
+                            <img loading="lazy" src="PNG-Imgs/homepage/bathroom.png" alt="bathroom">
                         </a>
                         <h4>
                             Bathroom
@@ -80,7 +84,7 @@
 
                     <div class="clean-column-eight">
                         <a href="bedroom.html">
-                            <img src="PNG-Imgs/homepage/bedroom.png" alt="bedroom">
+                            <img loading="lazy" src="PNG-Imgs/homepage/bedroom.png" alt="bedroom">
                         </a>
                         <h4>
                             Bedroom
@@ -89,7 +93,7 @@
 
                     <div class="clean-column-eight">
                         <a href="closet.html">
-                            <img src="PNG-Imgs/homepage/closet.png" alt="closet">
+                            <img loading="lazy" src="PNG-Imgs/homepage/closet.png" alt="closet">
                         </a>
                         <h4>
                             Closet
@@ -98,7 +102,7 @@
 
                     <div class="clean-column-eight">
                         <a href="garage.html">
-                            <img src="PNG-Imgs/homepage/garage.png" alt="garage">
+                            <img loading="lazy" src="PNG-Imgs/homepage/garage.png" alt="garage">
                         </a>
                         <h4>
                             Garage
@@ -107,7 +111,7 @@
 
                     <div class="clean-column-eight">
                         <a href="kitchen.html">
-                            <img src="PNG-Imgs/homepage/kitchen.png" alt="kitchen">
+                            <img loading="lazy" src="PNG-Imgs/homepage/kitchen.png" alt="kitchen">
                         </a>
                         <h4>
                             Kitchen
@@ -116,7 +120,7 @@
 
                     <div class="clean-column-eight">
                         <a href="laundry.html">
-                            <img src="PNG-Imgs/homepage/laundry.png" alt="laundry">
+                            <img loading="lazy" src="PNG-Imgs/homepage/laundry.png" alt="laundry">
                         </a>
                         <h4>
                             Laundry Room
@@ -125,7 +129,7 @@
 
                     <div class="clean-column-eight">
                         <a href="pantry.html">
-                            <img src="PNG-Imgs/homepage/pantry.png" alt="pantry">
+                            <img loading="lazy" src="PNG-Imgs/homepage/pantry.png" alt="pantry">
                         </a>
                         <h4>
                             Pantry
@@ -134,7 +138,7 @@
 
                     <div class="clean-column-eight">
                         <a href="playroom.html">
-                            <img class="trial" src="PNG-Imgs/homepage/playroom.png" alt="playroom">
+                            <img loading="lazy" class="trial" src="PNG-Imgs/homepage/playroom.png" alt="playroom">
                         </a>
                         <h4>
                             Play Room
@@ -308,11 +312,11 @@
                 <form action="https://formsubmit.co/lukemthewebdev@gmail.com" method="POST" class="contact-left">
                     <div class="contact-left-title">
                     </div>
-                        <input type="hidden" name="_subject" value="Quiz submission!">
-                        <input type="hidden" name="_autoresponse"
-                            value="Thank you for reaching out, we'll be in touch soon!">
-                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <input type="hidden" name="_subject" value="Quiz submission!">
+                    <input type="hidden" name="_autoresponse"
+                        value="Thank you for reaching out, we'll be in touch soon!">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
 
                     <details name="myselectlist">
                         <summary>Which areas of your home are in need of decluttering?</summary>
@@ -561,7 +565,7 @@
             <div class="first-title" id="us">About Us</div>
             <div class="row">
                 <div class="col-2">
-                    <img class="about-img" src="couple.png" alt="couple">
+                    <img loading="lazy" class="about-img" src="couple.png" alt="couple">
                 </div>
                 <div class="col-2">
                     <h2>Welcome to The Curated Cupboard Limited!</h2>
@@ -584,20 +588,20 @@
                     <h2>Get In Touch</h2>
                     <hr>
                 </div>
-                    <input type="hidden" name="_subject" value="New submission!">
-                    <input type="hidden" name="_autoresponse"
-                        value="Thank you for reaching out, we'll be in touch shortly!">
-                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                    <input type="text" name="name" placeholder="Write your message here" class="contact-inputs" required>
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_autoresponse"
+                    value="Thank you for reaching out, we'll be in touch shortly!">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <input type="text" name="name" placeholder="Write your message here" class="contact-inputs" required>
 
-                    <!-- Honeypot Spam Protection -->
-                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    <button type="submit">Submit</button>
-                </form>
-                <div class="contact-right">
-                    <img src="PNG-Imgs/homepage/right_img.png" alt="image">
-                </div>
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <img src="PNG-Imgs/homepage/right_img.png" alt="image">
+            </div>
         </div>
     </div>
 
@@ -679,7 +683,8 @@
     <!-------------------------------------To the Top------------------------------------------------------------------->
     <div class="utility">
         <div class="ttt">
-            <a href="index.html#top-page" aria-label="top-page-button"><i class="fa-solid fa-circle-arrow-up" id="top_btn"></i></a>
+            <a href="index.html#top-page" aria-label="top-page-button"><i class="fa-solid fa-circle-arrow-up"
+                    id="top_btn"></i></a>
             <p>To the top</p>
         </div>
     </div>
