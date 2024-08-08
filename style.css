@@ -13,6 +13,13 @@ body {
   height: 100%;
 }
 
+.main-row{
+  background-image: url(PNG-Imgs/homepage/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
 
 /****************************************** HEADER PERM**************************************************************/
 
@@ -176,10 +183,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: plum;
-    background-image: url(PNG-Imgs/homepage/home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -7.8rem;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -1350,10 +1353,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: plum;
-    background-image: url(PNG-Imgs/homepage/home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -2263,15 +2262,16 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-bar img {
-    width: 50vw;
+    width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    justify-content: center;
   }
 
   .hero {
@@ -2280,15 +2280,11 @@ body {
     height: 100vh;
   }
 
-    .main-row {
+  .main-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: plum;
-    background-image: url(PNG-Imgs/homepage/home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -2345,5 +2341,10 @@ body {
 
   .clean-row .column-2 p{
     font-size: 2rem;
+  }
+
+  .clean-column-eight img {
+    width: 90%;
+    height: auto;
   }
 }
